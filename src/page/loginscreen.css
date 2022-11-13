@@ -1,0 +1,122 @@
+.login-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+
+    img.login-logo {
+        height: 40px;
+    }
+
+
+    button.login-btn {
+
+        background-color: #e50914;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: normal;
+        padding: 10px 20px;
+        color: #fff;
+        border: 0px;
+        text-transform: capitalize;
+        border-radius: 5px;
+    }
+
+    .login-sccreen {
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+        
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    }
+
+
+    .background-gradient {
+        height: 100vh;
+        background-color: rgb(0 0 0 / 40%);
+        background-image: linear-gradient(to top, 
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+        
+        );
+    }
+
+
+    
+
+.login-body {
+    position: absolute;
+    top: 0;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    max-width: 762px;
+    right: 0;
+    height: fit-content;
+}
+
+.login-body h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.login-body h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.login-body h5{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+
+.login-input {
+    margin-top: 20px;
+  
+}
+
+.login-input form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-input input{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    min-width: 450px;
+    height: 60px !important;
+    border: 0px solid #fff ;
+    box-shadow: none !important;
+    padding: 0px 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    outline: none !important;
+}
+
+.login-input input:focus{
+    border:0px solid #fff ;
+}
+
+button.login-getstarted {
+    height: 60px;
+    background: #e20914;
+    color: #fff;
+    border: 0px;
+    padding: 10px 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
